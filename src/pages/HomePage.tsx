@@ -1,5 +1,6 @@
+import { useState } from 'react';
 import Button from '../components/Button';
-
+import Modal from '../components/Modal';
 
 const features = [
   {
@@ -21,6 +22,8 @@ const features = [
 ];
 
 const HomePage = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <main className="min-h-screen bg-white">
       <section className="relative py-20 px-4 mt-8">
@@ -39,6 +42,7 @@ const HomePage = () => {
           <Button 
             className="bg-[#C530C5] text-white px-20 py-2 rounded-[10px] cursor-pointer block mx-auto mt-6"
             text="Enable Gamification"
+            onClick={() => setIsModalOpen(true)}
           />
         </div>
       </section>
@@ -59,6 +63,8 @@ const HomePage = () => {
           ))}
         </div>
       </section>
+
+      <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </main>
   );
 };

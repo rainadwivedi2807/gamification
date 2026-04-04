@@ -1,13 +1,15 @@
-interface ButtonProps {
-  text: string;
+import type { ReactNode, ButtonHTMLAttributes } from 'react';
+
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  text?: string;
+  children?: ReactNode;
   className?: string;
-  onClick?: () => void;
 }
 
-const Button = ({ text, className, onClick }: ButtonProps) => {
+const Button = ({ text, children, className, ...props }: ButtonProps) => {
   return (
-    <button className={className} onClick={onClick}>
-      {text}
+    <button className={className} {...props}>
+      {children || text}
     </button>
   );
 };
