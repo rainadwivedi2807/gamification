@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 h-[64px] bg-white flex items-center justify-between px-[146px] z-50 shadow-sm">
+    <header className="fixed top-0 left-[188px] right-0 h-[64px] bg-white flex items-center justify-between px-[146px] z-50">
       <h1 className="text-[18px] font-semibold text-gray-800">
         Gamification
       </h1>
