@@ -1,0 +1,25 @@
+<svg
+  viewBox="0 0 1200 500"
+  xmlns="http://www.w3.org/2000/svg"
+  preserveAspectRatio="none"
+>
+  <style>
+    .wave { stroke: #C530C5; stroke-width: 0.6; opacity: 0.6; fill: none; }
+  </style>
+  <g>
+    <!-- top curves -->
+    <path class="wave" d="M0,10 C250,0 500,0 800,40 C1000,70 1100,60 1200,40" />
+    <path class="wave" d="M0,26 C250,16 500,16 800,56 C1000,86 1100,76 1200,56" />
+    <path class="wave" d="M0,42 C250,32 500,32 800,72 C1000,102 1100,92 1200,72" />
+
+    <!-- mid flows -->
+    <path class="wave" d="M0,90 C250,60 500,60 800,110 C1000,140 1100,130 1200,110" />
+    <path class="wave" d="M0,110 C250,80 500,80 800,130 C1000,160 1100,150 1200,130" />
+    <path class="wave" d="M0,130 C250,100 500,100 800,150 C1000,180 1100,170 1200,150" />
+    <path class="wave" d="M0,150 C250,120 500,120 800,170 C1000,200 1100,190 1200,170" />
+
+    <!-- bottom lines -->
+    <path class="wave" d="M0,180 C300,150 600,150 900,200 C1050,220 1150,210 1200,200" />
+    <path class="wave" d="M0,204 C300,174 600,174 900,224 C1050,244 1150,234 1200,224" />
+  </g>
+</svg>
