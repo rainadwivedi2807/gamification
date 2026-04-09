@@ -24,7 +24,32 @@ A premium, interactive reward configuration system built with React, TypeScript,
   - [@radix-ui/react-popover](https://www.radix-ui.com/primitives/docs/components/popover)
   - [react-day-picker](https://react-day-picker.js.org/) (v9)
   - [lucide-react](https://lucide.dev/)
-  - [clsx](https://github.com/lukeed/clsx) & [tailwind-merge](https://github.com/dcastil/tailwind-merge)
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rainadwivedi2807/gamification.git
+   cd gamification
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## 🛠️ Tech Stack
+
+- **Framework**: [React 18]
+- **Build Tool**: [Vite]
+- **Styling**: [Tailwind CSS]
 
 ## 📦 Getting Started
 
